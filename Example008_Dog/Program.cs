@@ -1,8 +1,8 @@
 ﻿int friends = 2, count = 0, time = 0; //distance = 10000
 
 Console.Write("Введите дистанцию: ");
-string distance12 = Console.ReadLine();
-int distance = Int32.Parse(distance12);
+string distance1 = Console.ReadLine();
+int distance = Int32.Parse(distance1);
 
 Console.Write("Введите скорость первого друга: ");
 string FFS1 = Console.ReadLine();

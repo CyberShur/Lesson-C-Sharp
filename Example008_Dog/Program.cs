@@ -1,4 +1,20 @@
-﻿int distance = 10000, FFS = 1, SFS = 2, dogS = 5, friends = 2, count = 0, time = 0;
+﻿int friends = 2, count = 0, time = 0; //distance = 10000
+
+Console.Write("Введите дистанцию: ");
+string distance12 = Console.ReadLine();
+int distance = Int32.Parse(distance12);
+
+Console.Write("Введите скорость первого друга: ");
+string FFS1 = Console.ReadLine();
+int FFS = Int32.Parse(FFS1);
+
+Console.Write("Введите скорость второго друга: ");
+string SFS1 = Console.ReadLine();
+int SFS = Int32.Parse(SFS1);
+
+Console.Write("Введите скорость собаки: ");
+string dogS1 = Console.ReadLine();
+int dogS = Int32.Parse(dogS1);
 
 while(distance > 10)
 {
